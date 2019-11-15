@@ -760,7 +760,7 @@ footer li a:hover {
 	position: relative;
 	width: 0;
 	height: 0;
-	top: .72em;
+	top: .70em;
 	left: 4.5em;
 	border-top: .72em solid #FFFEEC;
 	border-right: .72em solid transparent;
@@ -770,7 +770,6 @@ footer li a:hover {
 	float: left;
 	margin-top: 7px;
 	margin-right: .2em;
-	/* display: inline-block; */
 	width: 3.85em;
 	height: .7em;
 	
@@ -780,7 +779,7 @@ footer li a:hover {
 	position: relative;
 	width: 0;
 	height: 0;
-	top: -1.24em;
+	top: -1.22em;
 	left: -0.7em;
 	border-bottom: .72em solid #C91E90;
 	border-left: .72em solid transparent;
