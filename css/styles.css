@@ -27,13 +27,6 @@ Grey		#A19892		rgb(161, 152, 146)
 Green		#678515		rgb(103, 133, 21)
 ------------------------------*/
 
-/*
-TO DO:
-
-- Visit us > Facilities > Bacground images??
-- Media query for 320px??
-
-*/
 
 /*-----------------------------
  GLOBAL
@@ -87,7 +80,7 @@ h3 {
 }
 
 #page-footer section p {
-	font-size: 12px;
+	font-size: 14px;
 	margin-top: 0;
 }
 a {
