@@ -748,14 +748,13 @@ footer li a:hover {
 	margin-top: 7px;
 	width: 4.5em;
 	height: .7em;
-	
 }
 #slogan .trapezoid:first-child::after {
 	content: "";
 	position: relative;
 	width: 0;
 	height: 0;
-	top: .70em;
+	top: .71em;
 	left: 4.5em;
 	border-top: .72em solid #FFFEEC;
 	border-right: .72em solid transparent;
@@ -774,7 +773,7 @@ footer li a:hover {
 	position: relative;
 	width: 0;
 	height: 0;
-	top: -1.22em;
+	top: -1.25em;
 	left: -0.7em;
 	border-bottom: .72em solid #C91E90;
 	border-left: .72em solid transparent;
