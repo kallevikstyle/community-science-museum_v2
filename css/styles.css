@@ -491,7 +491,6 @@ nav ul {
 #page-footer {
 	flex-wrap: nowrap;
 	width: 100%;
-	/*border: 1px dotted red;*/
 }
 #page-footer .container-arrow-section {
 	background-position: -300px -40px;
@@ -500,7 +499,7 @@ nav ul {
 	border-color: #A19892;
 	border-color: rgba(161, 152, 146, 0.96);
 	color: #000;
-	/*border: 1px dashed pink;*/
+	width: 100%;
 }
 
 
@@ -1590,6 +1589,9 @@ ABOUT US
 }
 #page-footer-right {
 	display: none;
+}
+#page-footer .container-arrow-section {
+	width: 600px;
 }
 
 /* ---------------------------
