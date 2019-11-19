@@ -501,6 +501,9 @@ nav ul {
 	color: #000;
 	width: 100%;
 }
+#page-footer .main-arrow-section > * {
+	margin-left: 175px;
+}
 
 
 footer ul li {
@@ -1580,6 +1583,9 @@ ABOUT US
 
 /* FOOTER
 ------------------ */
+#page-footer .main-arrow-section > * {
+	margin-left: 0;
+}
 #copyright {
 	position: relative;
 	top: 150px;
@@ -2102,6 +2108,9 @@ GLOBAL
 #page-footer {
 	max-width: 375px;
 	margin: 0 auto;
+}
+#page-footer .main-arrow-section > * {
+	margin-left: 0;
 }
 
 #page-footer .container-arrow-section {
