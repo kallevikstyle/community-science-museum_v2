@@ -1,6 +1,7 @@
 [
   {
   	"id": 1,
+    "date": "11/10/2019",
     "title": "Energetica Exhibition on Loan",
     "shortText": "The Energetica exhibition is coming to the Community Science Museum.",
     "fullText": "On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. Experience the power of the elements!",
@@ -9,6 +10,7 @@
   },
   {
   	"id": 2,
+    "date": "11/12/2019",
     "title": "Visiting Professor of Aeronautics",
     "shortText": "Prof Sheila Widnall to deliver lectures on aeronautics.",
     "fullText": "Prof Sheila Widnall from the Massachusetts Institute of Technology to deliver lectures on aeronautics.",
@@ -17,6 +19,7 @@
   },
   {
   	"id": 3,
+    "date": "11/15/2019",
     "title": "Night in the Museum",
     "shortText": "Sleep over beside dinosaurs and science displays.",
     "fullText": "Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Explore the wonders of science together.",

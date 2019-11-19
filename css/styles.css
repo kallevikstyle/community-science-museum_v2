@@ -773,8 +773,8 @@ footer li a:hover {
 	position: relative;
 	width: 0;
 	height: 0;
-	top: -1.25em;
-	left: -0.7em;
+	top: -1.22em;
+	left: -0.68em;
 	border-bottom: .72em solid #C91E90;
 	border-left: .72em solid transparent;
 }
@@ -799,8 +799,9 @@ text-align: center;
 }
 .news-article {
 	background-color: #FFFEEC;
+	position: relative;
 	margin: 0 auto;
-	width: 35%;
+	width: 90%;
 	height: 280px;
 	font-size: 14px;
 }
@@ -833,6 +834,15 @@ text-align: center;
 	margin: 0 auto;
 }
 
+.news-article .date {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	font-style: italic;
+	color: #FFFEEC;
+	background-color: #C91E90;
+	padding: 0 5px;
+}
 
 .news-article img {
 	display: block;
