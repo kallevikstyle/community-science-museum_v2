@@ -625,8 +625,7 @@ footer li a:hover {
 	min-height: 900px;
 	position: relative;
 	background: url("../images/hero-image_1200.jpg") center no-repeat;
-	/*background-size: cover;*/
-	/*border: 1px dotted yellow;*/
+	background: url("../images/newhp-earth.jpg") center no-repeat;
 }
 
 /* CTA buttons */
