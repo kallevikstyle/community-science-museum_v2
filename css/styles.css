@@ -36,7 +36,7 @@ main, article, header, nav, section, aside, footer {
 }
 
 body {
-	background-color: #000;
+	background-color: #232223;
 	margin: 0;
 	font-size: 16px;
 	/*background-color: white;*/
@@ -222,7 +222,7 @@ form input[type="email"] {
 	border-bottom-width: 175px;
 	border-bottom-style: solid;
 	border-bottom-color: inherit;
-	border-right: 175px solid #000;
+	border-right: 175px solid #232223;
 	/*border: 1px dotted red;*/
 }
 .bottom-right-arrow-section {
@@ -231,7 +231,7 @@ form input[type="email"] {
 	border-top-width: 175px;
 	border-top-style: solid;
 	border-top-color: inherit;
-	border-right: 175px solid #000;
+	border-right: 175px solid #232223;
 }
 .bottom-left-arrow-section {
 	height: 0;
@@ -239,7 +239,7 @@ form input[type="email"] {
 	border-top-width: 175px;
 	border-top-style: solid;
 	border-top-color: inherit;
-	border-left: 175px solid #000;
+	border-left: 175px solid #232223;
 	/*border: 1px dotted red;*/
 }
 .top-left-arrow-section {
@@ -248,7 +248,7 @@ form input[type="email"] {
 	border-bottom-width: 175px;
 	border-bottom-style: solid;
 	border-bottom-color: inherit;
-	border-left: 175px solid #000;
+	border-left: 175px solid #232223;
 }
 
 /* FONT DECLARATIONS 
@@ -321,7 +321,7 @@ header #logo a {
 	top: 0;
 	right: 180px;
 	/*border-bottom: 150px solid #000;*/
-	border-bottom: 150px solid rgb(35, 34, 35);
+	border-bottom: 150px solid #232223;
 	border-left: 150px solid transparent;
 }
 
@@ -737,6 +737,8 @@ footer li a:hover {
 }
 #slogan span {
 	display: inline-block;
+	background-color: #232223;
+	background-color: rgba(34, 35, 34, 0.4);
 
 }
 #slogan span:first-of-type {
@@ -776,7 +778,7 @@ footer li a:hover {
 	position: relative;
 	width: 0;
 	height: 0;
-	top: -1.22em;
+	top: -1.23em;
 	left: -0.68em;
 	border-bottom: .72em solid #C91E90;
 	border-left: .72em solid transparent;
@@ -1173,8 +1175,8 @@ text-align: center;
 
 /* small changes to arrow section */
 #facilities .container-arrow-section {
-	background-color: #000;
-	border-color: #000;
+	background-color: #232223;
+	border-color: #232223;
 	width: 100%;
 }
 #facilities .top-left-arrow-section,
