@@ -214,7 +214,6 @@ form input[type="email"] {
 	border-color: inherit;
 	flex-wrap: nowrap;
 	flex-direction: column;
-	/*border: 1px dotted yellow;*/
 }
 .top-right-arrow-section {
 	height: 0;
@@ -1420,7 +1419,7 @@ ABOUT US
 .container-arrow-section {
 	overflow: hidden;
 	flex-wrap: nowrap;
-	width: 100%;
+	width: 600px;
 	margin: 0 auto;
 }
 
@@ -2461,3 +2460,24 @@ ABOUT US mobile
 }
 
 
+
+
+/*Make Media queries to fix scrollers on resize*/
+@media screen and (min-width: 481px) and (max-width: 800px) {
+
+/* Arrow sections */
+
+.container-arrow-section {
+	width: 600px;
+}
+
+.tip-arrow-section::after {
+	border-left: 300px solid #000;
+	border-right: 300px solid #000;
+	border-top-width: 300px;
+}
+#page-footer .container-arrow-section {
+	width: 600px;
+}
+
+}
