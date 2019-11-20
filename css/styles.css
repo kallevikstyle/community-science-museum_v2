@@ -308,7 +308,8 @@ header #logo a {
 	right: 0;
 	width: 180px;
 	height: 150px;
-	background-color: #000;
+	/*background-color: #000;*/
+	background-color: rgb(35, 34, 35);
 	/*border: 1px dotted pink;*/
 }
 
@@ -319,7 +320,8 @@ header #logo a {
 	position: absolute;
 	top: 0;
 	right: 180px;
-	border-bottom: 150px solid #000;
+	/*border-bottom: 150px solid #000;*/
+	border-bottom: 150px solid rgb(35, 34, 35);
 	border-left: 150px solid transparent;
 }
 
@@ -624,8 +626,8 @@ footer li a:hover {
 	max-width: 1200px;
 	min-height: 900px;
 	position: relative;
-	background: url("../images/hero-image_1200.jpg") center no-repeat;
-	background: url("../images/newhp-earth.jpg") center no-repeat;
+	/*background: url("../images/hero-image_1200.jpg") center no-repeat;*/
+	background: url("../images/hero-image-universe_1200.jpg") center no-repeat;
 }
 
 /* CTA buttons */
@@ -726,7 +728,7 @@ footer li a:hover {
 
 #slogan {
 	position: absolute;
-	bottom: 10px;
+	bottom: 200px;
 	left: 37%;
 	display: inline-block;
 	font-size: 1.8em;
@@ -1567,7 +1569,7 @@ ABOUT US
 
 #tours-btn {
 	font-size: 12px;
-	top: 80px;
+	top: 70px;
 	left: -150px;
 	padding: 3px 5px 5px 5px; 
 	width: 90px;
@@ -2090,7 +2092,7 @@ GLOBAL
 
 #tours-btn {
 	font-size: 12px;
-	top: 80px;
+	top: 70px;
 	left: -150px;
 	padding: 3px 5px 5px 5px; 
 	width: 90px;
@@ -2147,7 +2149,8 @@ HOME PAGE
  #hero-img {
 	max-width: 480px;
 	min-height: 693px;
-	background-image: url("../images/hero-image_480.jpg");
+	/*background-image: url("../images/hero-image_480.jpg");*/
+	background-image: url("../images/hero-image-universe_480.jpg");
  }
 
  /* CTA buttons */
@@ -2176,6 +2179,8 @@ HOME PAGE
  
  #slogan {
 	 left: 24%;
+	 bottom: 100px;
+
  }
 /* News section mobile 
 --------------------------------------*/
