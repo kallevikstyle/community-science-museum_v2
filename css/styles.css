@@ -2312,6 +2312,7 @@ EXHIBITIONS mobile
 ----------------------------- */
 #exhibitions > * {
 	width: 375px;
+	width: 100%;
 }
 #exhibitions > article {
 	max-width: 480px;
@@ -2325,6 +2326,7 @@ EXHIBITIONS mobile
 #exhibitions .section-heading h2 {
 	left: 100px;
 	top: -220px;
+	width: 200px;
 }
 #exhibitions #robotics h2 {
 	left: 80px;
@@ -2341,9 +2343,7 @@ EXHIBITIONS mobile
 	margin-top: 20px;
 }
 
-#exhibitions #biology h2 {
-	width: 150px;
-}
+
 #exhibitions blockquote {
 	position: relative;
 	left: 20px;
@@ -2478,6 +2478,11 @@ ABOUT US mobile
 #page-footer .container-arrow-section {
 	width: 500px;
 }
+#page-heading .tip-arrow-section::after {
+	border-left-width: 300px;
+	border-right-width: 300px;
+	border-top-width: 300px;
+}
 
 }
 
@@ -2495,9 +2500,24 @@ ABOUT US mobile
 #page-footer .container-arrow-section {
 	width: 400px;
 }
+#page-heading .tip-arrow-section::after {
+	border-left-width: 250px;
+	border-right-width: 250px;
+	border-top-width: 250px;
+}
 #info-blurb .tip-arrow-section {
 	background-image: url("../images/math-girl-600.jpg");
-	background-repeat: no-repeat;
+}
+
+#copyright {
+	top: 50px;
+}
+#social-links ul {
+	margin-top: 30px;
+}
+#social-links li div {
+	width: 70px;
+	height: 60px;
 }
 
 }
@@ -2507,7 +2527,6 @@ ABOUT US mobile
 #slogan {
 	 left: 12%;
 	 bottom: 100px;
-
  }
 
 .container-arrow-section {
@@ -2521,6 +2540,20 @@ ABOUT US mobile
 }
 #page-footer .container-arrow-section {
 	width: 300px;
+}
+#page-heading .tip-arrow-section::after {
+	border-left-width: 200px;
+	border-right-width: 200px;
+	border-top-width: 200px;
+}
+
+#page-heading h1 {
+	font-size: 2em;
+}
+
+#exhibitions .section-heading h2 {
+	font-size: 1em;
+	width: 100px;
 }
 
 }
