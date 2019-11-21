@@ -1871,6 +1871,11 @@ EXHIBITIONS tablet
 	margin: 0 auto;
 }
 
+#facilities .main-arrow-section {
+	margin: 0 auto;
+	width: 100%;
+}
+
 /* -----------
 GET INVOLVED tablet
 -------------- */
@@ -2484,6 +2489,7 @@ ABOUT US mobile
 	border-right-width: 300px;
 	border-top-width: 300px;
 }
+
 
 }
 
