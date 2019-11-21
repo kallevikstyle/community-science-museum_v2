@@ -2109,7 +2109,7 @@ GLOBAL
 /* FOOTER 
 -----------------------------------*/
 #page-footer {
-	max-width: 375px;
+	/*max-width: 375px;*/
 	margin: 0 auto;
 }
 #page-footer .main-arrow-section > * {
@@ -2499,6 +2499,8 @@ ABOUT US mobile
 }
 #page-footer .container-arrow-section {
 	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #page-heading .tip-arrow-section::after {
 	border-left-width: 250px;
