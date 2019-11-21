@@ -2462,22 +2462,65 @@ ABOUT US mobile
 
 
 
-/*Make Media queries to fix scrollers on resize*/
-@media screen and (min-width: 481px) and (max-width: 800px) {
-
-/* Arrow sections */
+/* Media queries to fix responsiveness of arrow sections on smaller screens
+------------------------------------------------------*/
+@media screen and (min-width: 500px) and (max-width: 599px) {
 
 .container-arrow-section {
-	width: 600px;
+	width: 500px;
 }
 
 .tip-arrow-section::after {
-	border-left: 300px solid #000;
-	border-right: 300px solid #000;
-	border-top-width: 300px;
+	border-left: 250px solid #000;
+	border-right: 250px solid #000;
+	border-top-width: 250px;
 }
 #page-footer .container-arrow-section {
-	width: 600px;
+	width: 500px;
+}
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+
+.container-arrow-section {
+	width: 400px;
+}
+
+.tip-arrow-section::after {
+	border-left: 200px solid #000;
+	border-right: 200px solid #000;
+	border-top-width: 200px;
+}
+#page-footer .container-arrow-section {
+	width: 400px;
+}
+#info-blurb .tip-arrow-section {
+	background-image: url("../images/math-girl-600.jpg");
+	background-repeat: no-repeat;
+}
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px) {
+
+#slogan {
+	 left: 12%;
+	 bottom: 100px;
+
+ }
+
+.container-arrow-section {
+	width: 300px;
+}
+
+.tip-arrow-section::after {
+	border-left: 150px solid #000;
+	border-right: 150px solid #000;
+	border-top-width: 150px;
+}
+#page-footer .container-arrow-section {
+	width: 300px;
 }
 
 }
