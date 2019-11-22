@@ -8,10 +8,10 @@
 
 #circular-buttons {
 	width: 100%;
-	opacity: 0;
-	-webkit-transform: scale(0);
-	-moz-transform: scale(0);
-  	-transform: scale(0);
+	opacity: 0.5;
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+  	-transform: scale(0.5);
   	-webkit-transition: all 0.4s ease-out;
   	-moz-transition: all 0.4s ease-out;
   	transition: all 0.4s ease-out;
@@ -26,11 +26,9 @@
 }
 
 #circular-buttons > div {
-	width: 150px;
-	height: 150px;
-	line-height: 150px;
-	margin-left: -75px;
-	margin-top: -75px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
 	position: absolute;
 }
 
@@ -52,18 +50,28 @@
 
 #cosmo-btn {
 	background-color: #166187;
+	top: 180px;
+	left: 8%;
 }
 #evo-btn {
 	background-color: #E3C91E;
+	top: 80px;
+	left: 25%;
 }
 #bio-btn {
 	background-color: #C91E90;
+	top: 50px;
+	left: calc(50% - 50px);
 }
 #robo-btn {
 	background-color: #A19892;
+	top: 80px;
+	right: 25%;
 }
 #eco-btn {
 	background-color: #678515;
+	top: 180px;
+	right: 8%;
 }
 #circular-buttons .circular-btn div {
 	background-size: 50%;
