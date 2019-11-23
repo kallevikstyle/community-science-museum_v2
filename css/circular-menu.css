@@ -88,7 +88,11 @@
 
 #circular-buttons {
 	width: 100%;
-	opacity: 0.5;
+	opacity: .6;
+
+	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
 } 
 
 #circular-buttons #cosmo-btn {
@@ -144,7 +148,11 @@
 /*Buttons in open state*/
 
 .open#circular-buttons {
-	opacity: 1;	
+	opacity: 1;
+
+	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
 }
 
 .open#circular-buttons #cosmo-btn {
