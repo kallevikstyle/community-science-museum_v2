@@ -1,28 +1,10 @@
+/*CIRCULAR MENU
+----------------------------------------*/
 .circular-menu {
 	width: 90%;
 	height: 400px;
 	margin: 50px auto 0;
 	position: relative;
-	border: 1px dashed yellow;
-}
-
-#circular-buttons {
-	width: 100%;
-	opacity: 0.5;
-	-webkit-transform: scale(0.5);
-	-moz-transform: scale(0.5);
-  	-transform: scale(0.5);
-  	-webkit-transition: all 0.4s ease-out;
-  	-moz-transition: all 0.4s ease-out;
-  	transition: all 0.4s ease-out;
-}
-
-.open#circular-buttons {
-	opacity: 1;
-
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-transform: scale(1);
 }
 
 #circular-buttons > div {
@@ -41,12 +23,11 @@
 	height: 150px;	
 	line-height: 150px;
 }
-/*Buttons*/
 .circular-btn {
 	border-radius: 50%;
 	box-shadow: 10px 10px 25px rgba(0, 0, 0, .8);
 }
-/* Button backgrounds */
+/* Button original positions and color */
 
 #cosmo-btn {
 	background-color: #166187;
@@ -101,4 +82,113 @@
 }
 #eco-btn div {
 	background: url("../images/icons/icon_ecology.png") center no-repeat;
+}
+
+/*Buttons in closed state*/
+
+#circular-buttons {
+	width: 100%;
+	opacity: 0.5;
+} 
+
+#circular-buttons #cosmo-btn {
+	-webkit-transform: translate(350%, 70%);
+	-moz-transform: translate(350%, 70%);
+  	-transform: translate(350%, 70%);
+
+  	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
+}
+#circular-buttons #evo-btn {
+	-webkit-transform: translate(190%, 150%);
+	-moz-transform: translate(190%, 150%);
+  	-transform: translate(190%, 150%);
+
+  	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
+}
+#circular-buttons #bio-btn {
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+  	-transform: translateX(0);
+
+	-webkit-transform: translateY(170%);
+	-moz-transform: translateY(170%);
+  	-transform: translateY(170%);
+
+  	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
+}
+#circular-buttons #robo-btn {
+	-webkit-transform: translate(-190%, 150%);
+	-moz-transform: translate(-190%, 150%);
+  	-transform: translate(-190%, 150%);
+
+  	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
+}
+#circular-buttons #eco-btn {
+	-webkit-transform: translate(-350%, 70%);
+	-moz-transform: translate(-350%, 70%);
+  	-transform: translate(-350%, 70%);
+
+  	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
+}
+
+/*Buttons in open state*/
+
+.open#circular-buttons {
+	opacity: 1;	
+}
+
+.open#circular-buttons #cosmo-btn {
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+  	-transform: translateX(0);
+
+  	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
+}
+.open#circular-buttons #evo-btn {
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+  	-transform: translateX(0);
+
+  	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
+}
+.open#circular-buttons #bio-btn {
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+  	-transform: translateX(0);
+
+  	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
+}
+.open#circular-buttons #robo-btn {
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+  	-transform: translateX(0);
+
+  	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
+}
+.open#circular-buttons #eco-btn {
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+  	-transform: translateX(0);
+
+  	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
 }
