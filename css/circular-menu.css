@@ -85,6 +85,37 @@
 	background: url("../images/icons/icon_ecology.png") center no-repeat;
 }
 
+/* Button hover states */
+#eye-button {
+	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
+}
+#eye-button:hover {
+	background-color: #166187;
+	-webkit-transition: all 0.4s ease-out;
+  	-moz-transition: all 0.4s ease-out;
+  	transition: all 0.4s ease-out;
+}
+#circular-buttons .circular-btn:hover {
+	background-color: #000;
+}
+#circular-buttons #evo-btn:hover {
+	background-color: #3D3A38;
+}
+/* This action sets the circular buttons to visible */
+#circular-buttons:target {
+	visibility: visible;
+}
+#circular-buttons .circular-btn:active,
+#eye-button:active {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, .8);
+}
+
+#eye-button:active {
+	background-color: #3D3A38;
+}
+
 /*Buttons in closed state*/
 
 #circular-buttons {
