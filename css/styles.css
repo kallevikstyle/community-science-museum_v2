@@ -1002,7 +1002,7 @@ text-align: center;
 #visit-us > * {
 	width: 100%;
 }
-#visit-us article {
+#visit-us > section {
 	height: auto;
 }
 #visit-us .section-wrapper {
@@ -1191,7 +1191,7 @@ ABOUT US
 #about-us > * {
 	width: 100%;
 }
-#about-us > article {
+#about-us > section {
 	height: auto;
 }
 #about-us .section-wrapper {
@@ -1814,7 +1814,7 @@ ABOUT US tablet
 #about-us > * {
 	width: 600px;
 }
-#about-us article {
+#about-us > section {
 	margin: 0 auto;
 }
 #about-us blockquote {
@@ -2348,7 +2348,7 @@ ABOUT US mobile
 #about-us > * {
 	width: 100%;
 }
-#about-us article {
+#about-us > section {
 	margin: 0 auto;
 }
 #about-us blockquote {
