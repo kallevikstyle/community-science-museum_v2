@@ -115,6 +115,15 @@
 #eye-button:active {
 	background-color: #3D3A38;
 }
+.nudge#circular-buttons {
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+  	-transform: translateY(-10px);
+
+  	-webkit-transition: all 0.2s ease-out;
+  	-moz-transition: all 0.2s ease-out;
+  	transition: all 0.2s ease-out;
+}
 
 /*Buttons in closed state*/
 
