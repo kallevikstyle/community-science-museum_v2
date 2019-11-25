@@ -879,8 +879,11 @@ text-align: center;
 	height: 30px;
 	padding: 5px 10px;
 	border: 0;
+	cursor: pointer;
 }
-
+#newsletter input[type="submit"]:hover {
+	background-color: #A19892;
+}
 /*------------------
  EXHIBITIONS 
  -------------------*/
