@@ -196,7 +196,6 @@ form input[type="email"] {
 	overflow: hidden;
 	flex-wrap: nowrap;
 	width: 85%;
-	/*border: 1px dotted white;*/
 }
 .container-arrow-section + * {
 	width: 15%;
@@ -222,7 +221,6 @@ form input[type="email"] {
 	border-bottom-style: solid;
 	border-bottom-color: inherit;
 	border-right: 175px solid #232223;
-	/*border: 1px dotted red;*/
 }
 .bottom-right-arrow-section {
 	height: 0;
@@ -239,7 +237,6 @@ form input[type="email"] {
 	border-top-style: solid;
 	border-top-color: inherit;
 	border-left: 175px solid #232223;
-	/*border: 1px dotted red;*/
 }
 .top-left-arrow-section {
 	height: 0;
